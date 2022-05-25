@@ -120,10 +120,11 @@ int main() {
 	
 	if(scaly==major) fonda = 0; // C major
 	else fonda = -3; // A minor
-	tauxJazz = distribJazz(generator); // 70
-	tauxCounter = 20; // 50
-	tauxPhrase = 40; // 40
-	tauxRepet = 70; // 70
+	//tauxJazz = distribJazz(generator);
+	tauxJazz = 70;
+	tauxCounter = 0; // 50
+	tauxPhrase = 0; // 40
+	tauxRepet = 0; // 70
 
 	infout << "tauxJazz : " << tauxJazz << endl;
 
@@ -237,7 +238,7 @@ int main() {
 	out << "format=0 tracks=1 division=96" << endl << endl
 		<< "BA    1   CR         0   TR  0   CH 16   Text type 3: \"Test 1\"" << endl
 		<< "BA    1   CR         0   TR  0   CH 16   Text type 2: \"Felix Rohrlich\"" << endl
-		<< "BA    1   CR         0   TR  0   CH 16   Tempo 200" << endl
+		<< "BA    1   CR         0   TR  0   CH 16   Tempo 250" << endl
 		<< "BA    1   CR         0   TR  0   CH 16   Time signature 4/4, clocks/mtick 24, crotchets/32ndnote 8" << endl
 		<< "BA    1   CR         0   TR  0   CH  1   ST &B0 &79 &00" << endl
 		<< "BA    1   CR         0   TR  0   CH  1   ST &B0 &00 &00" << endl
