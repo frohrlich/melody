@@ -249,7 +249,7 @@ int main() {
 		<< "BA    1   CR         0   TR  0   CH  3   Instrument 1" << endl
 		
 		<< "BA    1   CR         0   TR  0   CH  1   Channel volume 80" << endl
-		<< "BA    1   CR         0   TR  0   CH  2   Channel volume 40" << endl
+		<< "BA    1   CR         0   TR  0   CH  2   Channel volume 30" << endl
 		<< "BA    1   CR         0   TR  0   CH  3   Channel volume 80" << endl
 		
 		<< "BA    1   CR         0   TR  0   CH  1   ST &B0 &0A &40" << endl
